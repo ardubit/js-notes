@@ -1,3 +1,4 @@
+// #1
 const friends = [
     { pass: '01', name: 'Aleksey', age: 35},
     { pass: '02', name: 'Ivan', age: 35},
