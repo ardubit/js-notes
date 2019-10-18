@@ -40,3 +40,10 @@ console.log(filteredNumbers);
 // Finally reduce will return a number and not an array.
 const reducedValue = numbers.reduce((acc, cur) => acc + cur);
 console.log(reducedValue);
+
+// #4
+var teamArray = team.map(function (team, index, array) {
+    return index;
+});
+
+console.log(teamArray);

@@ -26,3 +26,10 @@ console.log(passes);
 console.log(passes2);
 console.log(passesMap);
 console.log(passesMap2);
+
+// #2
+var sample = [1, 2, 3];
+
+sample.forEach(function (elem, index) {
+    console.log(elem + ' comes at ' + index);
+})
